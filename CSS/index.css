@@ -1,0 +1,41 @@
+body{
+    background-color: #9ec0fc;
+}
+.container{
+    text-align: center;
+    box-shadow: 0px 0px 43px 17px rgba(153,153,153,1);
+    width: 300px;
+    height: 300px;
+    margin:25vh auto 0 auto;
+    background-color:#ededed;
+}
+.container h3{
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: xx-large;
+    margin: 2vh auto 0 auto;
+    border:1px solid black;
+}
+.logo{
+    color: black;
+    margin-top: 10vh;
+    font-size: xx-large;
+}
+.link{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin:0 auto 20vh auto;
+}
+
+a{
+    color:black;
+    text-decoration: none;
+    margin-top: 10vh;
+    font-size: x-large;
+}
+
+a:hover{
+    color:#9ec0fc;
+    font-size: xx-large;
+    transition:0.1s ease-in-out;
+}
